@@ -24,6 +24,9 @@ Constraint Filtering: Preprocess the graph to remove or ignore edges that exceed
 Optimization Algorithms:
 
 Dijkstra's Algorithm: Modified to respect the length constraint on edges, finding the shortest path in terms of distance.
+
 A* Search: Incorporate heuristics if specific starting and target nodes are involved, further optimizing path selection.
+
 Dynamic Programming: For subproblems with overlapping paths, a dynamic programming approach could be used to reduce redundant calculations.
+
 Utility Function Customization: Allow the optimization criterion to be user-defined (e.g., minimizing travel cost, maximizing connectivity).
